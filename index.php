@@ -28,7 +28,7 @@
 </head>
 <body class="bg-light">
 <nav>
-    <?php include 'actions/navbar.php'; ?>
+    <?php include 'navbar.php'; ?>
 </nav>
 
 <div class ="manageUser">
@@ -70,6 +70,8 @@
    </table>
 
    <a href= "create.php"><button type="button" class='btn btn-info'>Add Media</button></a>
+
+   
 
 </div>
 

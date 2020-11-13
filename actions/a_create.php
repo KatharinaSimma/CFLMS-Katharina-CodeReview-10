@@ -3,6 +3,7 @@
 
     if ($_POST) {
         $title = $_POST['title'];
+        $image = $_POST['image'];
         $fname = $_POST['author_fname'];
         $lname = $_POST['author_lname'];
         $ISBN = $_POST[ 'ISBN'];
@@ -13,10 +14,12 @@
         $p_size = $_POST['publisher_size'];
         $pub_type = $_POST['pub_type'];
 
+
         /*$sql = "INSERT INTO `library`(`id`, `title`, `image`, `author_fname`, `author_lname`, `ISBN`, `description`, `pub_date`, `publisher_name`, `publisher_address`, `publisher_size`, `pub_type`) VALUES ('$title', '$fname', '$lname', '$ISBN', '$description', '$pub_date', '$p_name', '$p_address','$p_size', '$pub_type')";*/
 
         $sql = "INSERT INTO `library`(
             `title`,
+            `image`,
             `author_fname`,
             `author_lname`,
             `ISBN`,
@@ -29,6 +32,7 @@
         )
         VALUES(
             '$title',
+            '$image',
             '$fname',
             '$lname',
             '$ISBN',
