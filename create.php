@@ -104,9 +104,7 @@
 
         </form>
 
-        <?php
-            include '../actions/a_update.php'
-        ?>
+        
 
     </main>
 

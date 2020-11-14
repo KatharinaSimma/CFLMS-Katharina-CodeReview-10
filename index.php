@@ -12,18 +12,6 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <title>Big Library</title>
 
-   <style type ="text/css">
-       .manageUser {
-           width : 80%;
-           margin: auto;
-       }
-
-        table {
-           width: 100%;
-            margin-top: 20px;
-       }
-
-   </style>
 
 </head>
 <body class="bg-light">
@@ -31,9 +19,15 @@
     <?php include 'navbar.php'; ?>
 </nav>
 
-<div class ="manageUser">
+
+<main></main>
+<div class ="container w-80">
+
+    <h1 class="text-info my-5">All media in the Big Library </h1>
+    <a href= "create.php"><button type="button" class='btn btn-info'>Add Media</button></a>
+
    
-    <table class="table text-info table-hover">
+    <table class="table text-info table-hover m-3">
         <thead>
             <tr>
                 <th scope="col">ID</th>
@@ -74,6 +68,12 @@
    
 
 </div>
+
+</main>
+
+<footer class="mt-4">
+    <?php include 'navbar.php'; ?>
+</footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
