@@ -20,8 +20,8 @@
 </nav>
 
 
-<main></main>
-<div class ="container w-80">
+<main>
+<div class ="container w-80 mb-4">
 
     <h1 class="text-info my-5">All media in the Big Library </h1>
     <a href= "create.php"><button type="button" class='btn btn-info'>Add Media</button></a>
@@ -71,9 +71,7 @@
 
 </main>
 
-<footer class="mt-4">
-    <?php include 'navbar.php'; ?>
-</footer>
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
